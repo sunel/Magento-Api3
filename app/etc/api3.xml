@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+    	<api3>
+    		<key>245DD8FFC3698F831C7B5399F95AA</key>
+    		<standardsTree>vnd</standardsTree>
+    		<subtype>sample</subtype>
+    		<domain>magento.app</domain>
+			<prefix>api</prefix>
+    		<version>v1</version>
+    		<defaultFormat>json</defaultFormat>
+    		<strict>1</strict>
+            <debug>1</debug>
+    	</api3>
+    </global>		
+</config>

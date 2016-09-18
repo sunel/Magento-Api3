@@ -1,0 +1,25 @@
+{
+    "name": "sunel/magento-api3",
+    "description": "Post.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sunel TR",
+            "email": "sunelbe@gmail.com"
+        }
+    ],
+    "require-dev": {
+        
+    },
+    "require": {
+        "league/route": "^2.0.0",
+        "illuminate/http": "^5.3",
+        "illuminate/container": "^5.3",
+        "lcobucci/jwt": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunel\\Api\\": "sunel/magento-api/"
+        }
+    }
+}

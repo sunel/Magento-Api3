@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sunel_Api>
+            <version>0.1.0</version>
+        </Sunel_Api>
+    </modules>
+    <global>
+    	<helpers>
+            <api3>
+                <class>Sunel_Api_Helper</class>
+            </api3>
+        </helpers>    
+    	<models>
+            <api3>
+                <class>Sunel_Api_Model</class>
+            </api3>
+        </models>    
+    	<api3>
+            <auth_adapters>
+                <jwt>Sunel\Api\Auth\Provider\JWT</jwt>
+            </auth_adapters>
+            <middlewares>
+                <tokenized>Sunel\Api\Http\Middleware\Tokenized</tokenized>
+                <auth>Sunel\Api\Http\Middleware\Auth</auth>
+            </middlewares>
+            <response>
+                <formats>
+                	<json>api3/response_format_json</json>
+                </formats>
+            </response>	
+        </api3> 
+    </global>	
+</config>    
