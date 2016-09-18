@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Sunel_ApiCollection>
+      <active>false</active>
+      <codePool>community</codePool>
+    </Sunel_ApiCollection>
+  </modules>
+</config>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Sunel_ApiCollection>
+			<version>0.1.0</version>
+		</Sunel_ApiCollection>
+	</modules>	
+	<global>
+		<models>
+			<apicollection>
+				<class>Sunel_ApiCollection_Model</class>
+			</apicollection>			
+		</models>
+		<api3>
+			<middlewares>
+            	<store_check>apicollection/middleware_store</store_check>
+            </middlewares>
+            <routes>
+            	<apicollection>Sunel_ApiCollection</apicollection>
+            </routes>
+            <models>
+				<apicollection>Sunel_ApiCollection_Api</apicollection>
+			</models>
+		</api3>	
+	</global>
+</config>	
